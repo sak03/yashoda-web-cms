@@ -1,0 +1,70 @@
+.imgDiv {
+  margin-left: 3rem;
+}
+
+.experiance {
+  margin-left: 1rem;
+}
+
+.drpDwn {
+  width: 33%;
+}
+
+.aditInput {
+  width: 35%;
+}
+
+.addBtn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: relative;
+  right: -2.5rem;
+  color: gray;
+}
+
+.addBtn:hover {
+  color: blue;
+}
+
+.editBtn {
+  cursor: pointer;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: gray;
+}
+
+.editBtn:hover {
+  color: blue;
+}
+
+.borderClass {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  border-radius: 5rem;
+} */
+
+.cellLine{
+  border-radius: 5rem;
+  padding: 1rem, 0rem;
+}
+
+.cellLine:hover {
+  border-radius: 5rem;
+  background-color: #5129fe;
+  color: snow;
+}

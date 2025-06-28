@@ -1,0 +1,16 @@
+.p-card .p-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.p-card .p-card-content {
+    padding: 0.5rem 0;
+}
+
+.borderClass {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}

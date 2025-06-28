@@ -1,0 +1,80 @@
+{
+  "name": "jyotishee-react-admin",
+  "version": "4.4.0",
+  "description": "jyotishee-react-admin",
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhelnas/jyotishee-admin-new.git"
+  },
+  "license": "MIT",
+  "author": "jyotishee",
+  "scripts": {
+    "build": "react-scripts build",
+    "changelog": "auto-changelog --starting-version 4.4.0 --commit-limit false --hide-credit",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "test:debug": "react-scripts --inspect-brk test --runInBand"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^38.1.1",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "@coreui/coreui": "^4.2.1",
+    "@coreui/icons": "^2.1.0",
+    "@coreui/icons-react": "^2.1.0",
+    "@coreui/react": "^4.3.1",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "classnames": "^2.3.1",
+    "core-js": "^3.24.1",
+    "formik": "^2.2.9",
+    "hoist-non-react-statics": "^3.3.2",
+    "primeflex": "^3.2.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.6.1",
+    "prop-types": "^15.8.1",
+    "quill": "^1.3.7",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "redux": "^4.2.0",
+    "simplebar-react": "^2.4.1",
+    "socket.io-client": "^4.7.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "auto-changelog": "~2.4.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.54.4",
+    "web-vitals": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

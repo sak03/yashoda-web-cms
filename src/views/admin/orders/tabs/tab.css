@@ -1,0 +1,25 @@
+.para-publish {
+  margin: 3px 10px 3px 0px;
+}
+span.p-button-icon.p-button-icon-left.pi.pi-plus {
+  display: none;
+}
+/* .p-dialog .p-dialog-header {
+  background: none !important;
+  padding: none !important;
+  color: white !important;
+} */
+
+/* .p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
+  display: none;
+} */
+.p-dialog-header {
+  display: none;
+}
+.p-dialog-content {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.p-dialog .p-dialog-content {
+  padding: 0 0 0 0;
+}
